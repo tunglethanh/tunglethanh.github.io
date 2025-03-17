@@ -1,0 +1,96 @@
+/* vim: set ts=2 sts=2 sw=2 noet: */
+body {
+	padding-top: 50px;
+}
+
+/* Override bootstrap link color to be a little darker */
+a {color: #004499;}
+
+/* Override bootstrap's newer quote to do the recessed look */
+blockquote{
+  font-size: 90%;
+  width: 95%;
+  padding: .5em;
+  position: relative;
+  background: #EDEDED;
+  border-left: 8px solid #CCC;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#gallery-pat-div {
+	height: 300px;
+}
+
+#gallery-pat-div img {
+	position: absolute;
+	height: 300px;
+	top: 0;
+	border-radius: 10%;
+}
+
+.caption {
+	text-align: justify;
+	font-variant-caps: small-caps;
+}
+
+.bib_title {
+	font-weight: bold;
+}
+
+.bib_conference {
+	font-style: italic;
+}
+
+.bib_extra {
+	font-weight: bold;
+	color: red;
+}
+
+.talk img {
+	width: 100%;
+	padding: 2px;
+	border: 2px solid black;
+	margin-top: 14px;
+}
+
+.talk h3 {
+	margin-top: 0px;
+}
+
+:target {
+	background-color: #ffa;
+}
+
+.timeline > li > .timeline-panel:target:after {
+	border-right: 14px solid #ffa;
+	border-left: 0 solid #ffa;
+}
+
+.prj-title-row {
+	display: flex;
+	align-items: baseline;
+}
+
+.prj-title-col {
+	padding-left: 3%;
+	padding-right: 2% !important;
+}
+
+.prj-tagline-col {
+	color: rgb(110, 110, 110);
+}
+
+.prj-content-row {
+	display: flex;
+	align-items: flex-start;
+}
+
+.prj-image {
+	max-width: 80%;
+	max-height: 80%;
+}

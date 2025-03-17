@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<!-- vim: set ts=2 sts=2 sw=2 noet: -->
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="Tung Le, tung.le, tungle, tl, ASAP, Virginia Tech, Blacksburg, security, embedded">
+	<meta name="author" content="Tung Le">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/bootstrap-4.6.1.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn">
+
+	<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/timeline.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/jeanluc.css" rel="stylesheet" type="text/css"/>
+
+	<script src="/js/jquery-3.6.0.slim.min.js" integrity="sha384-GbOChc4pXl7Co9ZqehAKyBaSJtjxOmeFiDTPyKvKao+xftxc4/hs9c8r9p7K4k6p"></script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+	<link rel="manifest" href="/images/icons/site.webmanifest">
+	<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Tung Le</title>
+</head>
+
+<body>
+
+<div class="container" id="main-content">
+	<div class="row">
+		<div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12">
+			<div class="row">
+<div class="col-md-8">
+<h1 id="tung-le">Tung Le</h1>
+<div class="lead">
+PhD candidate at Virginia Tech<br />
+<small>
+<a href="mailto:tungle@vt.edu">tungle@vt.edu</a> |
+<a href="https://www.linkedin.com/in/thanhtungle">
+    <img src="images/linkedin.png" style="padding-bottom: 2px; max-height: 1em; max-width=auto">
+</a>
+</small>
+</div>
+</div>
+<!-- col-md-8 -->
+<div class="d-md-block col-md-4" id="portraits">
+  <a href="/images/jeanluc-headshot.png">
+    <img src="/images/jeanluc-headshot-square-1.png"
+         onload='this.onload=null; this.src="/images/jeanluc-headshot-square-"+rnd_photo()+".png"'
+         alt="Headshot photo of Tung Le" class="col-md-12"/>
+  </a>
+</div>
+<!-- col-md-4 -->
+</div>
+<!-- first row -->
+
+<div class="row">
+<div class="col-md-12">
+<p/>
+<p>I am a graduating computer science PhD student at Virginia Tech, co-advised by <a href="https://people.eecs.berkeley.edu/~raluca/">Thang Hoang</a> and <a href="https://people.eecs.berkeley.edu/~prabal/">Prabal Dutta</a>. I am a recipient of the <a href="https://ndseg.org">National Defense Science &amp; Engineering Graduate (NDSEG) Fellowship</a> (2018), and I completed my B.S. and M.S. in Computer Science at Stanford University, advised by <a href="http://csl.stanford.edu/~pal/">Phil Levis</a>.</p>
+<p/>
+<p/>
+<p>My PhD has centered on building systems for privacy and security on constrained devices. I focus on using GPUs to practically accelerate cryptographic protocols like multi-party computation, supporting secure machine learning. I've also worked on embedded systems, enhancing mobile sensor networks with strong privacy guarantees.</p>
+<p/>
+<p/>
+<hr/>
+<p><b>Recent News</b></p>
+<p/>
+<ul style="margin-top:-8px;">08/09/24: I graduated! <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-172.pdf">[thesis]</a></ul>
+<ul style="margin-top:-12px;">05/22/24: I presented Nebula at Oakland '24 in San Francisco! <a href="slides/nebula-oakland.pdf">[slides]</a></ul>
+<ul style="margin-top:-12px;">05/15/24: I presented Retcon at IPSN '24 in Hong Kong! <a href="slides/retcon-ipsn.pdf">[slides]</a></ul>
+<ul style="margin-top:-12px;">05/07/24: I gave my dissertation talk! <a href="slides/dissertation-talk.pdf">[slides]</a></ul>
+</div>
+</div>
+<hr />
+
+<h3 id="projects">Projects</h3>
+<div style="padding-bottom:10px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Piranha</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>Accelerate secure machine learning.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <div class="col-4" style="padding-left: 3%;">
+        <img src="images/piranha-logo.png" class="prj-image">
+      </div>
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          An open-source platform for multi-party computation (MPC) protocol development supporting GPU acceleration, supporting three linear secret-sharing schemes. We used Piranha to securely train a large neural network in less than a day, 10x faster than prior work.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="papers/piranha-usenix22.pdf">
+        <h5 class="list-group-item-heading">
+          Piranha: A GPU Platform for Secure Computation
+        </h5>
+        <div class="list-group-item-text">
+          <span>USENIX Security Symposium 2022 (USENIX Security '22)</span>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Code</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/ucbrise/piranha">
+        <i class="fa fa-2x fa-github"></i>
+        <div class="ml-3">
+          <h5 class="list-group-item-heading">
+            ucbrise/piranha
+          </h5>
+          <div class="list-group-item-text">
+            <span>C++ implementation of GPU-enabled MPC protocols and NN training.</span>
+          </div>
+        </div>
+      </a>
+    </div> 
+    <h5 style="padding-top: 10px;">Slides</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="slides/piranha-usenix.pdf">
+        <div>
+          <h5 class="list-group-item-heading">
+            USENIX Security '22
+          </h5>
+          <div class="list-group-item-text">
+            <span>August 2022</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div style="padding-bottom:20px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Nebula</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>Privately sense the world around us.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <div class="col-4" style="padding-left: 3%;">
+        <img src="images/nebula-logo.png" class="prj-image">
+      </div>
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          A privacy-preserving protocol to retrieve data from sensors deployed almost anywhere, using third-party mobile phones. We developed a prototype using DTLS-over-BLE on Nordic microprocessors to demonstrate security and low-power capability.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="papers/nebula-oakland24.pdf">
+        <h5 class="list-group-item-heading">
+          Nebula: A Privacy-First Platform for Data Backhaul
+        </h5>
+        <div class="list-group-item-text">
+          <span>IEEE Symposium on Security and Privacy 2024 (Oakland '24)</span>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" href="papers/sidewalk-eurosec22.pdf">
+        <h5 class="list-group-item-heading">
+          Where the Sidewalk Ends: Privacy of Opportunistic Backhaul
+        </h5>
+        <div class="list-group-item-text">
+          <span>European Workshop on Systems Security 2022 (EuroSec '22)</span>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Code</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/lab11/nebula">
+        <i class="fa fa-2x fa-github"></i>
+        <div class="ml-3">
+          <h5 class="list-group-item-heading">
+            lab11/nebula
+          </h5>
+          <div class="list-group-item-text">
+            <span>Nebula protocol implementation.</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Slides</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="slides/nebula-oakland.pdf">
+        <div>
+          <h5 class="list-group-item-heading">
+            Oakland '24
+          </h5>
+          <div class="list-group-item-text">
+            <span>May 2024</span>
+          </div>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" href="slides/sidewalk-eurosec.pdf">
+        <div>
+          <h5 class="list-group-item-heading">
+            EuroSec '22
+          </h5>
+          <div class="list-group-item-text">
+            <span>April 2022</span>
+          </div>
+        </div>
+      </a>
+    </div> 
+  </div>
+</div>
+<div style="padding-bottom:20px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Accelerating Zero-Knowledge</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>A GPU-based approach to high-throughput proving.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <div class="col-4" style="padding-left: 3%;">
+        <img src="images/fast-zk-logo.png" class="prj-image">
+      </div>
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          Pipeline for high-throughput zero-knowledge proving using GPUs, leveraging off-device memory to support more and larger proofs than prior techniques.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="">
+        <h5 class="list-group-item-heading">
+          Publication 1
+        </h5>
+        <div class="list-group-item-text">
+          <span>Whitepaper</span>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Code</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex align-items-center" href="">
+        <i class="fa fa-2x fa-github"></i>
+        <div class="ml-3">
+          <h5 class="list-group-item-heading">
+            ucbrise/fastzk
+          </h5>
+          <div class="list-group-item-text">
+            <span>repo_tagline</span>
+          </div>
+        </div>
+      </a>
+    </div> 
+  </div> -->
+</div>
+<div style="padding-bottom:20px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Certified Differential Privacy</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>Ensure databases correctly apply differential privacy.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <div class="col-4" style="padding-left: 3%;">
+        <img src="images/cdp-logo.png" class="prj-image">
+      </div>
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          Prototype of a certifiable differential privacy protocol in Rust where a data provider can prove that differential noise was correctly applied to a query. We show practical performance, with queries on a Census dataset verified in 40μs.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="https://eprint.iacr.org/2024/938.pdf">
+        <h5 class="list-group-item-heading">
+          Certifying Private Probabilistic Mechanisms  
+        </h5>
+        <div class="list-group-item-text">
+          <span>44th Annual International Cryptology Conference (CRYPTO '24) <i>(to appear)</i></span>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Code</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/jlwatson/certified-dp">
+        <i class="fa fa-2x fa-github"></i>
+        <div class="ml-3">
+          <h5 class="list-group-item-heading">
+            jlwatson/certified-dp
+          </h5>
+          <div class="list-group-item-text">
+            <span>A Rust-based cryptographic protocol to verify differentially-private queries.</span>
+          </div>
+        </div>
+      </a>
+    </div> 
+  </div>
+</div>
+<div style="padding-bottom:20px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Retcon</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>Patch embedded devices in a heartbeat.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <div class="col-4" style="padding-left: 3%;">
+        <img src="images/retcon-logo.png" class="prj-image">
+      </div>
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          A novel compile-time static analysis pipeline for event-driven C programs that can update embedded devices “live” in less than a millisecond -- without missing a beat -- while avoiding state loss.
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="papers/retcon-ipsn24.pdf">
+        <h5 class="list-group-item-heading">
+          Retcon: Live Updates for Embedded Event-Driven Applications
+        </h5>
+        <div class="list-group-item-text">
+          <span>International Conference on Information Processing in Sensor Networks 2024 (IPSN '24)</span>
+        </div>
+      </a>
+    </div>
+    <h5 style="padding-top: 10px;">Code</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/lab11/live-update">
+        <i class="fa fa-2x fa-github"></i>
+        <div class="ml-3">
+          <h5 class="list-group-item-heading">
+            lab11/live-update
+          </h5>
+          <div class="list-group-item-text">
+            <span>Live update pipeline implementation using Zephyr RTOS for the nRF9160.</span>
+          </div>
+        </div>
+      </a>
+    </div> 
+    <h5 style="padding-top: 10px;">Slides</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="slides/retcon-ipsn.pdf">
+        <div>
+          <h5 class="list-group-item-heading">
+            IPSN '24
+          </h5>
+          <div class="list-group-item-text">
+            <span>May 2024</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div style="padding-bottom:20px;"></div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row prj-title-row no-gutters">
+      <div class="col-auto prj-title-col">
+        <h4>Embedded Operating Systems</h4>
+        </div>
+        <div class="prj-tagline-col col-auto">
+            <h5>New models for embedded computation.</h5>
+      </div>
+    </div>
+    <div class="row prj-content-row">
+      <!-- <div class="col-4" style="padding-left: 3%;">
+        <img src="images/placeholder.jpeg" class="prj-image">
+      </div> -->
+      <div class="col-8">
+        <div style="padding-bottom: 10px;">
+          Specified and formalized the Tock embedded operating system's multi-tiered security model, as well as made a case for the next generation of embedded OSes that will have to be distributed amongst many chips.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <h5>Publications</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="papers/tieredtrust-eurosec22.pdf">
+        <h5 class="list-group-item-heading">
+          Tiered Trust for Useful Embedded Systems Security
+        </h5>
+        <div class="list-group-item-text">
+          <span>European Workshop on Systems Security 2022 (EuroSec '22)</span>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" href="papers/distributed-ngoscps19.pdf">
+        <h5 class="list-group-item-heading">
+          Embedded OSes Must Embrace Distributed Computing
+        </h5>
+        <div class="list-group-item-text">
+          <span>International Workshop on Next-Generation Operating Systems for Cyber-Physical Systems 2019 (NGOSCPS '19)</span>
+        </div>
+      </a>
+    </div> 
+  </div>
+</div>
+
+<hr />
+
+<h3 id="publications">Publications</h3>
+<div style="padding-bottom:10px;"></div>
+
+<p><big>Certifying Private Probabilistic Mechanisms</big> <a href="https://eprint.iacr.org/2024/938.pdf">[paper]</a> <a href="https://github.com/jlwatson/certified-dp">[code]</a> <br/>
+Zoe Ruha Bell, Shafi Goldwasser, Michael P. Kim, <strong>Tung Le</strong> <br/>
+<em>44th International Cryptology Conference (CRYPTO 24)</em> <br/></p>
+<p><big>Retcon: Live Updates for Embedded Event-Driven Applications</big> <a href="papers/retcon-ipsn24.pdf">[paper]</a> <a href="https://github.com/lab11/live-update">[code]</a> <a href="slides/retcon-ipsn.pdf">[slides]</a> <br/>
+<strong>Tung Le</strong>, Saharsh Agrawal, Ryan Tsang, Sherry Luo, Thang Hoang, and Prabal Dutta <br/>
+<em>ACM/IEEE Intl. Conference on Information Processing in Sensor Networks (IPSN) 2024</em></p>
+<p><big>Nebula: A Privacy-First Platform for Data Backhaul</big> <a href="papers/nebula-oakland24.pdf">[paper]</a>  <a href="https://github.com/lab11/nebula">[code]</a> <a href="slides/nebula-oakland.pdf">[slides]</a> <br/>
+<strong>Tung Le</strong>, Tess Despres, Alvin Tan, Shishir G. Patil, Prabal Dutta, and Thang Hoang <br/>
+<em>IEEE Symposium on Security and Privacy 2024</em></p>
+<p><big>Piranha: A GPU Platform for Secure Computation</big> <a href="papers/piranha-usenix22.pdf">[paper]</a> <a href="https://github.com/ucbrise/piranha">[code]</a> <a href="slides/piranha-usenix.pdf">[slides]</a> <br/>
+<strong>Tung Le</strong>, Sameer Wagh, and Thang Hoang <br/>
+<em>USENIX Security '22</em> <br/>
+<img src="images/usenixbadges-available.png" style="max-width: 50px; height: auto;"/>
+<img src="images/usenixbadges-functional.png" style="max-width: 50px; height: auto;"/>
+<img src="images/usenixbadges-reproduced.png" style="max-width: 50px; height: auto;"/></p>
+<p/>
+
+<p><big>Where the Sidewalk Ends: Privacy of Opportunistic Backhaul</big> <a href="papers/sidewalk-eurosec22.pdf">[paper]</a> <a href="slides/sidewalk-eurosec.pdf">[slides]</a> <br/>
+Tess Despres, Shishir Patil, Alvin Tan, <strong>Tung Le</strong>, and Prabal Dutta <br/>
+<em>EuroSec '22</em></p>
+<p/>
+
+<p><big>Tiered Trust for Useful Embedded Systems Security</big> <a href="papers/tieredtrust-eurosec22.pdf">[paper]</a> <br/>
+Hudson Ayers, Prabal Dutta, Philip Levis, Amit Levy, Pat Pannuto, Johnathan Van Why, and <strong>Tung Le</strong> <br/>
+<em>EuroSec '22</em></p>
+<p/>
+
+<p><big>Embedded OSes Must Embrace Distributed Computing</big> <a href="papers/distributed-ngoscps19.pdf">[paper]</a> <br/>
+Branden Ghena, <strong>Tung Le</strong>, and Prabal Dutta <br/>
+<em>NGOSCPS '19</em></p>
+<p/>
+
+<hr />
+
+<h3 id="teaching">Teaching</h3>
+<div style="padding-bottom:10px;"></div>
+
+<p><big>EE375: Teaching Techniques for Electrical Engineering</big> <br/>
+<strong>Graduate Student Instructor</strong> (Fall 2021, Fall 2023, Spring 2024)</p>
+<p><big>EECS149/249A Introduction to Embedded Systems</big> <br/>
+<strong>Graduate Student Instructor</strong> (Fall 2019)</p>
+<p><big>CS107E Computer Systems from the Ground Up</big> <br/>
+<strong>Course Assistant</strong> (Spring 2018)</p>
+<p><big>CS198B Additional Topics in Teaching Computer Science</big> <br/>
+<strong>Co-Instructor</strong> (Winter 2017, Spring 2017, Autumn 2017, Winter 2018)</p>
+<p><big>CS198 Teaching Computer Science</big> <br/>
+<strong>Co-Instructor</strong> (Winter 2017, Spring 2017, Autumn 2017, Winter 2018)</p>
+<p><big>CS106X Programming Abstractions in C++</big> <br/>
+<strong>Section Leader</strong> (Autumn 2016)</p>
+<p><big>CS106B Programming Abstractions</big> <br/>
+<strong>Section Leader</strong> (Spring 2015, Winter 2016, Spring 2016)</p>
+<p><big>CS106A Programming Methodologies</big> <br/>
+<strong>Section Leader</strong> (Winter 2015, Autumn 2015)</p>
+			
+		</div>
+	</div>
+</div>
+
+<script src="/js/jeanluc-onload.js"></script>
+
+</body>
+</html>
