@@ -79,6 +79,7 @@ blockquote p:last-child { margin-bottom: 0; }
 .prj-title-col {
 	padding-left: 3%;
 	padding-right: 2% !important;
+	display: flex;
 }
 
 .prj-tagline-col {
